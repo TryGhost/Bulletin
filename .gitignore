@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # assets/built
-assets/built
+assets/built/
