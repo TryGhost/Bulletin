@@ -4,7 +4,7 @@
     {{#if @site.members_enabled}}
         {{#unless @member}}
             <div class="gh-home">
-                <div class="gh-home-cta">
+                <div class="gh-home-cta" style="background-image: url({{img_url @site.cover_image}});background-repeat: no-repeat;background-size: cover; object-fit: cover;">
                     <header class="gh-home-head">
                         <div class="gh-home-brand">
                             <a class="gh-home-logo" href="{{@site.url}}">

@@ -131,3 +131,7 @@ dist
 
 # assets/built
 assets/built/
+assets/built/screen.css
+
+# VStudio workspace
+*.code-workspace
