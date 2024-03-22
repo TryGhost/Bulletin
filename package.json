@@ -57,7 +57,12 @@
                 "options": ["Full", "Wide", "Small"],
                 "default": "Small",
                 "group": "post"
-            }
+            },
+            "background_position": {
+                "type": "text",
+                "default": "left 25%",
+                "description": "The background position for the site cover image used in post menu"
+            }                           
         }
     },
     "scripts": {
